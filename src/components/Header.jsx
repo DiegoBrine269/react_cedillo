@@ -1,8 +1,8 @@
 
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo.svg";
 import Gorro from "../assets/gorro-navidad.png";
 
-import LogoBlanco from "../assets/Logo-blanco.png";
+// import LogoBlanco from "../assets/Logo-blanco.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { NavLink } from "react-router-dom";
@@ -71,9 +71,9 @@ export default function Header() {
                     </button>
                     <NavLink to="/" className="relative">
                         <img
-                            src={darkMode ? LogoBlanco : Logo}
+                            src={Logo}
                             alt="Logo"
-                            className="w-12 xl:w-16"
+                            className="w-12 xl:w-16 dark:invert"
                         />
                         {/* Activar en navidad */}
                         {/* <img
