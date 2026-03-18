@@ -560,7 +560,7 @@ export default function Cotizaciones() {
 
             <div>
 
-                <div className="tabs">
+                {/*<div className="tabs">
                     {tabs.map(tab => (
                         <button
                             key={tab.id}
@@ -575,7 +575,7 @@ export default function Cotizaciones() {
                             {tab.label}
                         </button>
                     ))}
-                </div>
+                </div>*/}
 
                 <Tabla
                     key={reloadKey}

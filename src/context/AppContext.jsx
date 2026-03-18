@@ -257,7 +257,7 @@ export default function AppProvider({ children }) {
         } else {
             NProgress.done();
         }
-        setLoading(value); // Si aún necesitas el estado para algo más
+        // quita el setLoading
     };
     //Total de filas
 
